@@ -39,7 +39,7 @@
   }
 }
 
-Resets
+/* Resets */
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -133,7 +133,6 @@ body {
   height: 50%;
   aspect-ratio: 1;
   border-radius: 2rem;
-  transition: scale 0.5s;
 }
 
 .clr-picker input[type='radio']:checked {
@@ -148,11 +147,11 @@ body {
 /* Utility */
 .txt-cntr { text-align: center; }
 
-.trsn-fast { transition: all 0.4s }
+.trsn-fast { transition: all 0.4s; }
 
-.trsn-med { transition: all 0.8s }
+.trsn-med { transition: all 0.8s; }
 
-.trsn-slow { transition: all 1.4s }
+.trsn-slow { transition: all 1.4s; }
 
 
 /* Color Themes */
