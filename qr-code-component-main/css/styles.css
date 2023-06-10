@@ -142,12 +142,8 @@ body {
 .clr-picker {
   transition: all 0.8s !important;
   position: relative;
-  top: 2rem;
-}
-
-.clr-picker__field {
   box-sizing: border-box;
-  transition: all 0.8s !important;
+  top: 2rem;
   background: var(--card-bg-clr);
   display: flex;
   justify-content: space-around;
