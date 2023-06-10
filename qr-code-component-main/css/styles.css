@@ -219,8 +219,7 @@ body {
 
 
 /* Color Themes */
-.dark-theme,
-:root:has(#dark-theme:checked) {
+.dark-theme {
   --card-bg-clr: var(--card-bg-clr-dark);
   --bg-clr: var(--bg-clr-dark);
   --text-clr: var(--text-clr-dark);
@@ -230,8 +229,7 @@ body {
   --svg-bg-clr: var(--svg-bg-clr-dark);
 }
 
-.night-theme,
-:root:has(#night-theme:checked) {
+.night-theme {
   --card-bg-clr: var(--card-bg-clr-night);
   --bg-clr: var(--bg-clr-night);
   --text-clr: var(--text-clr-night);
@@ -242,8 +240,7 @@ body {
   --img-outline: 0.1rem solid var(--bg-clr-night);;
 }
 
-.orange-theme,
-:root:has(#orange-theme:checked) {
+.orange-theme {
   --card-bg-clr: var(--card-bg-clr-orange);
   --bg-clr: var(--bg-clr-orange);
   --text-clr: var(--text-clr-orange);
@@ -253,8 +250,7 @@ body {
   --svg-bg-clr: var(--svg-bg-clr-orange);
   }
 
-.cream-theme,
-:root:has(#cream-theme:checked) {
+.cream-theme {
   --card-bg-clr: var(--card-bg-clr-cream);
   --bg-clr: var(--bg-clr-cream);
   --text-clr: var(--text-clr-cream);
