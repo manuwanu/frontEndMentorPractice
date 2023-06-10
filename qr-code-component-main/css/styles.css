@@ -259,3 +259,9 @@ body {
   --svg-crcl-clr: var(--svg-crcl-clr-cream);
   --svg-bg-clr: var(--svg-bg-clr-cream);
 }
+
+@media (prefers-color-scheme: dark) {
+  root {
+    --card-bg-clr: #FFFFFE  
+  }
+}
