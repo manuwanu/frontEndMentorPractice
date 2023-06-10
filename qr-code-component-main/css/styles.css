@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 :root {
-  --card-bg-clr: hsl(0, 0%, 100%);
-  --bg-clr: hsl(212, 45%, 89%);
-  --text-clr: hsl(220, 15%, 55%);
-  --title-clr: hsl(218, 44%, 22%);
-  --svg-clr: #ffffff;
-  --svg-crcl-clr: #3685ff;
-  --svg-bg-clr: #2c7dfa;
+  --card-bg-clr: #FFFFFF;
+  --bg-clr: #D6E2F0;
+  --text-clr: #7B879D;
+  --title-clr: #1F3251;
+  --svg-clr: #FFFFFF;
+  --svg-crcl-clr: #3685FF;
+  --svg-bg-clr: #2C7DFA;
 
-  --card-bg-clr-dark: #04060e; /* #0b0c11 1a1b2b*/
+  --card-bg-clr-dark: #04060e; 
   --bg-clr-dark: #0d0f2c;
   --text-clr-dark: #c8cbdd;
   --title-clr-dark: #e1e5ff; 
-  --svg-clr-dark: var(--title-clr-dark);
+  --svg-clr-dark: #e1e5ff;
   --svg-crcl-clr-dark: #161a3b;
-  --svg-bg-clr-dark: var(--bg-clr-dark);
+  --svg-bg-clr-dark: #0d0f2c;
   
   --card-bg-clr-night: #69497e; 
   --bg-clr-night: #372849;
