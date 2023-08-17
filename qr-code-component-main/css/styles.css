@@ -265,3 +265,17 @@ body {
     --card-bg-clr: #FFFFFE  
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .clr-picker__field {
+    height: 55px;
+    width: 100%;
+    padding:5px;
+  }
+  
+  .clr-picker input:checked {
+    width: 250%;
+  }
+  
+
+}
